@@ -1,0 +1,17 @@
+/* Tablet Views ******************************/
+
+@media only screen and (min-width: 37.5em) {
+    body {
+        max-width: 600px;
+    }
+    main {
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+    main section:nth-child(3) {
+        grid-column: span 2;
+    }
+    img {
+        grid-column: span 2;
+    }
+}

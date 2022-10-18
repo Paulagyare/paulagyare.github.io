@@ -1,0 +1,121 @@
+body {
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0%;
+    background-color: black;
+}
+
+
+/* phone or baseline views **************************/
+
+header {
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    border-radius: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 120px 0 120px;
+    max-width: 1200px;
+    font-display: left;
+    width: 1200px;
+    height: 93.375px;
+    justify-content: space-between;
+    
+    
+}
+
+#image {
+    display: block;
+    margin: auto;
+    width: 12%;
+    border-radius: 90px;
+}
+
+footer {
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: .1rem;
+    border: 1px solid rgba(90, 78, 78, 0.2);
+    margin: 0 120px 0 120px;
+    max-width: 1200px;
+    font-size: large;
+}
+
+
+nav {
+    background-color:  rgba(214, 199, 199, 0.817);
+    margin: 0 auto;
+    margin-bottom: 0%;
+    max-width: 900px;
+    border-radius: 25px;
+    
+}
+
+nav ul {display: flex;
+    list-style-type: none;
+   margin-left: 10%;
+   
+}
+
+nav ul li a {
+ 
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0.50em;
+    text-decoration: none;
+    background: linear-gradient (90deg, transparent, rgba(187, 239, 90, 0.873), transparent) bottom / var(--d, 0) 6px no-repeat;
+    transition: 0.5s;
+}
+
+.active {
+    color: rgba(247, 247, 247, 0.898);
+}
+
+main {
+    text-align: justify;
+    box-sizing: border-box;
+    background-attachment: fixed;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+main section {
+    color: rgba(223, 196, 196, 0.817);
+    font-size: large;
+}
+
+footer p {
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#back {
+    display: block;
+    margin-left: 20ex;
+    margin-right: auto;
+    width: 70%;
+}
+
+#logo {
+    display: block;
+    margin-right: auto;
+    width: 20%;
+}
+#sec{
+    display: block;
+    margin-left: 70%;
+    width: 20%;
+    display: flex;
+}
+div{
+    margin:auto;
+        justify-content: space-between;
+        
+    
+
+   
+}

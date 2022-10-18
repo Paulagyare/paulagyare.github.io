@@ -1,0 +1,43 @@
+body {
+    max-width: 600px;
+    font-size: 16px;
+    margin: 1.25rem auto;
+    padding: 1.5rem;
+}
+
+header,
+footer {
+    background-color: rgb(12, 31, 115);
+    color: rgb(217, 208, 208);
+    border: 3px solid rgb(3, 74, 63);
+    border-radius: 5px;
+    font-family: 'IBM Plex Serif', serif;
+    text-align: center;
+}
+
+header {
+    align-items: center;
+}
+
+main {
+    font-family: Poppins, sans-serif;
+}
+
+img {
+    border-radius: 2px;
+    border: 5px solid rgb(79, 8, 8);
+    margin: 10px;
+    max-width: 100%;
+}
+
+a {
+    color: rgb(12, 31, 115);
+    font-size: 1.1em;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #005a5f;
+    background-color: rgb(12, 31, 115);
+    text-decoration: none;
+}
