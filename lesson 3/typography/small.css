@@ -1,0 +1,84 @@
+body{
+    background-color: #000000;
+    font-size: larger;
+    
+    }
+    h1, h2, h3, h4, h5, h6 {font-size: larger;
+        font-family: Trocchi, Georgia, serif;
+        font-weight: normal;
+        padding: 0 2rem;
+        font-size: 1.6rem;
+    }
+    header, footer { margin: 0 120px 0 120px;
+        max-width: 1200px;
+        display: flex;
+        width: 100%;
+        background-color:rgb(230, 230, 230);
+        color: #000000;
+        
+    }
+    header {color: #000000;
+       align-items: baseline;
+       
+    }
+    footer {
+        align-items: center;
+        font-size: large;
+        text-align: center;
+        justify-content: center;
+    }
+    footer p {
+        padding: 0 1rem;
+    }
+    nav ul {
+        margin-right: 50px;
+        color: #000000;
+        display: flex;
+        list-style: none;
+        padding: 0;
+    }
+    nav a, nav a:visited {
+       
+        border-radius: 40px;
+        color: #010201;
+        text-decoration: none;
+        font-weight: normal;
+        padding: .7rem;
+        float: center;
+    }
+    nav a:hover, .navtxt:hover {
+        background-color: rgb(202, 172, 172);
+    }
+    nav a:active, .navtxt:active {
+        background-color: rgb(202, 172, 172)6;
+    }
+    
+    main { background-color: #030000;
+        border: 8px solid #aa9d9d;
+        border-style: solid none solid none;
+        padding: 3rem 3rem;
+        margin: 0 120px 0 120px;
+        max-width: 1200px;
+    }
+    section { 
+        color:rgb(202, 172, 172) ;
+        background-color: #000000;
+        font-size: x-large;
+        max-width: 580px;
+        margin: 0 auto;
+        justify-content: center;
+       margin-left: 400px;
+        
+    }
+    #back {
+        display: block;
+        margin-left: 330px;
+        margin-right: auto;
+        width: 35%;
+    }
+    #image {
+        display: block;
+        margin: auto;
+        width: 13%;
+       
+    }
